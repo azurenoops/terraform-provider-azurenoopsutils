@@ -42,7 +42,7 @@ jobs:
               dep ensure
           fi
       - name: Build
-        run: go build -o ./terraform-provider-azurenoops
+        run: go build -o ./terraform-provider-azurenoopsutils
 
       - name: Import GPG key
         id: import_gpg
