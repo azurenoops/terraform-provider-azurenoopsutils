@@ -1,0 +1,13 @@
+terraform-provider-*
+terraform
+**/.terraform
+**/*.tfstate
+**/*.tfstate.backup
+**/*.tfplan
+**/lock.json
+.DS_Store
+**/.terraform.tfstate.lock.info
+**/~*.*
+**/*.log
+main
+__debug_bin
